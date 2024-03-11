@@ -5,11 +5,13 @@ import { About } from './pages/About'
 import { SignIn } from './pages/SignIn'
 import { SignUp } from './pages/SignUp'
 import { Profile } from './pages/Profile'
+import { Header } from './components/Header'
 
 function App() {
   return (
     <>
     {/* <h1>APP</h1> */}
+    <Header/>
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path="/about" element={<About/>}></Route>
